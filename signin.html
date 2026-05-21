@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Aroma Coffee</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+  <!-- Nav Bar-->
+  <div class="w-[80%] m-auto">
+    <div class="flex justify-between items-center p-5">
+      <a href="index.html" class="flex items-center hover:scale-110 transition duration-200">
+        <img class="mr-10" src="./assests/coffee.png" alt="" width="50px" height="100px">
+        <h1 class="text-2xl">Aroma Coffee</h1>
+      </a>
+      <div class="flex gap-10">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Careers.html">Careers</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+      <div class="flex gap-5">
+        <a href="signin.html"><button class="underline text-orange-500">Sign In</button></a>
+        <a href="signup.html"><button class="bg-red-900 text-white p-2 rounded-xl">Sign Up</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign In Form -->
+  <div class="min-h-[70vh] flex items-center justify-center bg-gray-100 py-16">
+    <div class="bg-white shadow-xl rounded-2xl p-10 w-full max-w-md mx-4">
+      <div class="text-center mb-8">
+        <div class="h-20 w-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+          <img src="./assests/coffee.png" alt="" class="w-[40px]">
+        </div>
+        <h1 class="text-3xl font-bold">Welcome Back</h1>
+        <p class="text-gray-500 mt-2">Sign in to your Aroma Coffee account</p>
+      </div>
+      <form>
+        <div class="mb-5">
+          <label class="block text-sm font-semibold mb-2">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-orange-500" placeholder="your@email.com">
+        </div>
+        <div class="mb-5">
+          <label class="block text-sm font-semibold mb-2">Password</label>
+          <input type="password" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-orange-500" placeholder="••••••••">
+        </div>
+        <div class="flex items-center justify-between mb-6">
+          <label class="flex items-center gap-2 text-sm text-gray-500">
+            <input type="checkbox" class="accent-orange-500"> Remember me
+          </label>
+          <a href="#" class="text-sm text-orange-500 hover:underline">Forgot password?</a>
+        </div>
+        <button class="w-full bg-orange-500 text-white py-3 rounded-xl text-lg font-semibold hover:bg-orange-600 transition duration-200">Sign In</button>
+      </form>
+      <p class="text-center text-gray-500 mt-6">
+        Don't have an account? <a href="signup.html" class="text-orange-500 font-semibold hover:underline">Sign Up</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-orange-500 text-white">
+    <div class="w-[80%] m-auto py-12 flex justify-between flex-wrap gap-10">
+      <div class="w-[300px]">
+        <div class="flex items-center gap-3 mb-4">
+          <img src="./assests/coffee.png" alt="" width="40px">
+          <h1 class="text-2xl font-bold">Aroma Coffee</h1>
+        </div>
+        <p class="text-orange-100">Crafted with passion, served with love. Your perfect cup awaits.</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+        <div class="flex flex-col gap-2 text-orange-100">
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Careers.html">Careers</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Hours</h3>
+        <div class="flex flex-col gap-2 text-orange-100">
+          <span>Mon-Fri: 7AM - 9PM</span>
+          <span>Sat-Sun: 8AM - 10PM</span>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Contact</h3>
+        <div class="flex flex-col gap-2 text-orange-100">
+          <span>hello@aromacoffee.com</span>
+          <span>(383) 123-4567</span>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-6 border-t border-orange-600 text-orange-100">
+      <p>&copy; 2026 Aroma Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

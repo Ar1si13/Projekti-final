@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-poppins: 'Poppins';
+  --font-sans: var(--font-poppins), 'Poppins', sans-serif;
+  --font-mono: 'Geist Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
+}
+
+* {
+  font-family: var(--font-sans);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.coffee-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  margin-top: -250px;
+}
+
+.coffee-circle img {
+  margin-left: 0;
+}
+
+.hero-text {
+  margin-top: -200px;
+}
